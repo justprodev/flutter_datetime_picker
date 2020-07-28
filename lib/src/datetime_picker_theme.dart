@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 
 // Migrate DiagnosticableMixin to Diagnosticable until
 // https://github.com/flutter/flutter/pull/51495 makes it into stable (v1.15.21)
-class DatePickerTheme with DiagnosticableMixin {
+// ay 28.07.2020 TODO: I will remove that fork after migrating will happened
+class DatePickerTheme with Diagnosticable {
   final TextStyle cancelStyle;
   final TextStyle doneStyle;
   final TextStyle itemStyle;
